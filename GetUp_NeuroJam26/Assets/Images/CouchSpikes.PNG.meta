@@ -1,0 +1,1105 @@
+fileFormatVersion: 2
+guid: db538e63424fd914ea7d3b1f0217b246
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5087210411571582060
+    second: CouchSpikes_0
+  - first:
+      213: -8868063128431198884
+    second: CouchSpikes_1
+  - first:
+      213: 1357621572823389242
+    second: CouchSpikes_2
+  - first:
+      213: 2264823389640274725
+    second: CouchSpikes_3
+  - first:
+      213: -2696858957535417252
+    second: CouchSpikes_4
+  - first:
+      213: -3056156181136607564
+    second: CouchSpikes_5
+  - first:
+      213: -2670303444431224457
+    second: CouchSpikes_6
+  - first:
+      213: 7147009873747249632
+    second: CouchSpikes_7
+  - first:
+      213: -5517841440161207937
+    second: CouchSpikes_8
+  - first:
+      213: -3486052970725471093
+    second: CouchSpikes_9
+  - first:
+      213: 4018298698535792381
+    second: CouchSpikes_10
+  - first:
+      213: -1188589933651597515
+    second: CouchSpikes_11
+  - first:
+      213: -3576623633901804717
+    second: CouchSpikes_12
+  - first:
+      213: 6658255745584635817
+    second: CouchSpikes_13
+  - first:
+      213: -2927171730217913888
+    second: CouchSpikes_14
+  - first:
+      213: -4747893771556112532
+    second: CouchSpikes_15
+  - first:
+      213: -2272952394226770387
+    second: CouchSpikes_16
+  - first:
+      213: 172062440972294312
+    second: CouchSpikes_17
+  - first:
+      213: 5524530096135703358
+    second: CouchSpikes_18
+  - first:
+      213: -4087225827355737905
+    second: CouchSpikes_19
+  - first:
+      213: 2017154023206532963
+    second: CouchSpikes_20
+  - first:
+      213: 4593945449589334314
+    second: CouchSpikes_21
+  - first:
+      213: -28625275221165637
+    second: CouchSpikes_22
+  - first:
+      213: 9112215211435056600
+    second: CouchSpikes_23
+  - first:
+      213: -2766572121210303618
+    second: CouchSpikes_24
+  - first:
+      213: -8542009467950031271
+    second: CouchSpikes_25
+  - first:
+      213: -114339140640586488
+    second: CouchSpikes_26
+  - first:
+      213: -6066252096863563245
+    second: CouchSpikes_27
+  - first:
+      213: 2242942541428473331
+    second: CouchSpikes_28
+  - first:
+      213: 352215978599812999
+    second: CouchSpikes_29
+  - first:
+      213: 8301806356731434654
+    second: CouchSpikes_30
+  - first:
+      213: 6867940224864413837
+    second: CouchSpikes_31
+  - first:
+      213: 5695894608794097576
+    second: CouchSpikes_32
+  - first:
+      213: 8809649287076152009
+    second: CouchSpikes_33
+  - first:
+      213: -2456308584946387189
+    second: CouchSpikes_34
+  - first:
+      213: -4321209763211128826
+    second: CouchSpikes_35
+  - first:
+      213: 7534435149701972249
+    second: CouchSpikes_36
+  - first:
+      213: -1607622177644025641
+    second: CouchSpikes_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CouchSpikes_0
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 705
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b6b9875199669b0800000000000000
+      internalID: -5087210411571582060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_1
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 686
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d7e18d19f4ee480800000000000000
+      internalID: -8868063128431198884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 644
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a349b83a0ad37d210800000000000000
+      internalID: 1357621572823389242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_3
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 662
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52331829fd44e6f10800000000000000
+      internalID: 2264823389640274725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 665
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c65c21115d29ad0800000000000000
+      internalID: -2696858957535417252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_5
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 644
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6fc3d352a5695d0800000000000000
+      internalID: -3056156181136607564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_6
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 610
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771cc284a2d21fad0800000000000000
+      internalID: -2670303444431224457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 628
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e90aea1d974f2360800000000000000
+      internalID: 7147009873747249632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_8
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 625
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f79e248e170bc63b0800000000000000
+      internalID: -5517841440161207937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_9
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 604
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c86b30b4d0f9fc0800000000000000
+      internalID: -3486052970725471093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_10
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 577
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee3af506dd3c730800000000000000
+      internalID: 4018298698535792381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_11
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 595
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5376715b0c7418fe0800000000000000
+      internalID: -1188589933651597515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 576
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353240631c74d5ec0800000000000000
+      internalID: -3576623633901804717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 543
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af964bd250e66c50800000000000000
+      internalID: 6658255745584635817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_14
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 561
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1bbc7f1d89067d0800000000000000
+      internalID: -2927171730217913888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_15
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 542
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67bb1b25c71c1eb0800000000000000
+      internalID: -4747893771556112532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_16
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 558
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e5dbe07d9d470e0800000000000000
+      internalID: -2272952394226770387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_17
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 538
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a81751e0e9436200800000000000000
+      internalID: 172062440972294312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_18
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 556
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b8f1b2ad21bac40800000000000000
+      internalID: 5524530096135703358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 538
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0c8abd3c14747c0800000000000000
+      internalID: -4087225827355737905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_20
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 524
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367b97295ee5efb10800000000000000
+      internalID: 2017154023206532963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_21
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 504
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a216b40fb09f0cf30800000000000000
+      internalID: 4593945449589334314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_22
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 522
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb938deb67d4a9ff0800000000000000
+      internalID: -28625275221165637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_23
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 504
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd5f7ac477157e70800000000000000
+      internalID: 9112215211435056600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_24
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 520
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bc2cd40592b99d0800000000000000
+      internalID: -2766572121210303618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_25
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 501
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e90da75afa47980800000000000000
+      internalID: -8542009467950031271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_26
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 519
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805c13a4829c96ef0800000000000000
+      internalID: -114339140640586488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_27
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 505
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3129a78bbd750dba0800000000000000
+      internalID: -6066252096863563245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_28
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 503
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdb4799b58802f10800000000000000
+      internalID: 2242942541428473331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_29
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 521
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f88a0019253e400800000000000000
+      internalID: 352215978599812999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_30
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 486
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e969e0785e0f53370800000000000000
+      internalID: 8301806356731434654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_31
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 467
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88e8a12f33df4f50800000000000000
+      internalID: 6867940224864413837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_32
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 485
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a71c33f7f1eb0f40800000000000000
+      internalID: 5695894608794097576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_33
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 467
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c282ffd959224a70800000000000000
+      internalID: 8809649287076152009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_34
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 489
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0737872b5079edd0800000000000000
+      internalID: -2456308584946387189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_35
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 469
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600d9d77d9af704c0800000000000000
+      internalID: -4321209763211128826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_36
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 487
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911043979d0bf8860800000000000000
+      internalID: 7534435149701972249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CouchSpikes_37
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 447
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ec70a52490b9e0800000000000000
+      internalID: -1607622177644025641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CouchSpikes_0: -5087210411571582060
+      CouchSpikes_1: -8868063128431198884
+      CouchSpikes_10: 4018298698535792381
+      CouchSpikes_11: -1188589933651597515
+      CouchSpikes_12: -3576623633901804717
+      CouchSpikes_13: 6658255745584635817
+      CouchSpikes_14: -2927171730217913888
+      CouchSpikes_15: -4747893771556112532
+      CouchSpikes_16: -2272952394226770387
+      CouchSpikes_17: 172062440972294312
+      CouchSpikes_18: 5524530096135703358
+      CouchSpikes_19: -4087225827355737905
+      CouchSpikes_2: 1357621572823389242
+      CouchSpikes_20: 2017154023206532963
+      CouchSpikes_21: 4593945449589334314
+      CouchSpikes_22: -28625275221165637
+      CouchSpikes_23: 9112215211435056600
+      CouchSpikes_24: -2766572121210303618
+      CouchSpikes_25: -8542009467950031271
+      CouchSpikes_26: -114339140640586488
+      CouchSpikes_27: -6066252096863563245
+      CouchSpikes_28: 2242942541428473331
+      CouchSpikes_29: 352215978599812999
+      CouchSpikes_3: 2264823389640274725
+      CouchSpikes_30: 8301806356731434654
+      CouchSpikes_31: 6867940224864413837
+      CouchSpikes_32: 5695894608794097576
+      CouchSpikes_33: 8809649287076152009
+      CouchSpikes_34: -2456308584946387189
+      CouchSpikes_35: -4321209763211128826
+      CouchSpikes_36: 7534435149701972249
+      CouchSpikes_37: -1607622177644025641
+      CouchSpikes_4: -2696858957535417252
+      CouchSpikes_5: -3056156181136607564
+      CouchSpikes_6: -2670303444431224457
+      CouchSpikes_7: 7147009873747249632
+      CouchSpikes_8: -5517841440161207937
+      CouchSpikes_9: -3486052970725471093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

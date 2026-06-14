@@ -1,0 +1,131 @@
+using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ButtonController : MonoBehaviour
+{
+    public static ButtonController instance;
+
+    [Header("Get Up Value Control")]
+    public int value = 0;
+    public int increaseAmount = 1;
+    public int goalValue = 100;
+    float reductionRate = 1f;
+    [SerializeField] TextMeshProUGUI valueText_Temp;
+
+    [Header("Progress Bar")]
+    float fillPercentage;
+    [SerializeField] Image fillBarImage;
+
+    [Header("Coins")]
+    public int coins = 0;
+    public int coinIncreaseAmount = 1;
+    [SerializeField] TextMeshProUGUI coinText;
+
+    [Header("Settings")]
+    [SerializeField] GameObject settingsCanvas;
+    bool settingsActive = false;
+    [SerializeField] Button settingsButton;
+
+    [Header("Shop")]
+    [SerializeField] GameObject shopCanvas;
+    bool shopActive = false;
+    [SerializeField] Button shopButton;
+    [SerializeField] Button[] shopItems;
+
+
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
+
+
+    void Start()
+    {
+        coinText.text = coins.ToString();
+    }
+
+    
+    void Update()
+    {
+        if (value < 0)
+        {
+            value = 0;
+        }
+    }
+
+    public void IncreaseValue()
+    {
+        value += increaseAmount;
+        valueText_Temp.text = value.ToString();
+        coins += coinIncreaseAmount;
+        coinText.text = coins.ToString();
+
+        UpdateFillBar();
+
+        if(value > 5)
+        {
+            StartCoroutine(ReduceValueOverTime(reductionRate));
+        }
+    }
+
+    IEnumerator ReduceValueOverTime(float seconds)
+    {
+        while (value >= 2)
+        {
+            yield return new WaitForSeconds(seconds);
+            if (value > 0)
+            {
+                value--;
+                valueText_Temp.text = value.ToString();
+                UpdateFillBar();
+            } 
+        }
+    }
+
+    void UpdateFillBar()
+    {
+        fillPercentage = (float)value / goalValue;
+        fillBarImage.GetComponent<Image>().fillAmount = fillPercentage;
+    }
+
+
+    //TODO:DisableBrainButtonInToggle
+    public void ToggleSettings()
+    {
+        if (settingsActive)
+        {
+            settingsCanvas.SetActive(false);
+            settingsActive = false;
+            shopButton.enabled = true;
+        }
+        else
+        {
+            settingsCanvas.SetActive(true);
+            settingsActive = true;
+            shopButton.enabled = false;
+        }
+    }
+
+    public void ToggleShop()
+    {
+        if (shopActive)
+        {
+            shopCanvas.SetActive(false);
+            shopActive = false;
+            settingsButton.enabled = true;
+            //Todo: for buttons[i], if descriptionActive -> ToggleDescription
+        }
+        else
+        {
+            shopCanvas.SetActive(true);
+            shopActive = true;
+            settingsButton.enabled = false;
+        }
+    }
+}
