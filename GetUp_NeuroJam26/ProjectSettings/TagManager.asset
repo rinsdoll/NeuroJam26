@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Character
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Props
     uniqueID: 663167425
+    locked: 0
+  - name: Character
+    uniqueID: 136491287
     locked: 0
   m_RenderingLayers:
   - Default

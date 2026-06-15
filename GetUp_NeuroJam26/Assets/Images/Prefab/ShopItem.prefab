@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 5711366396898991987}
   - component: {fileID: 676772602418922922}
   - component: {fileID: 8733906592560150103}
+  - component: {fileID: 4354306634859938834}
   m_Layer: 5
   m_Name: PurchaseButton
   m_TagString: Untagged
@@ -244,7 +245,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: -7614774334197428549, guid: 0926e46e01deaca488eb8b2f8fc38130, type: 3}
-    m_PressedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: -7277555556031916725, guid: c53ac64630b82ae48840f15c08d21fae, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -257,7 +258,33 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 676772602418922922}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4354306634859938834}
+        m_TargetAssemblyTypeName: Purchase, Assembly-CSharp
+        m_MethodName: PurchaseUpgrade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4354306634859938834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227708699934393202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cd022cda3ecc6f4095715d2b4f06d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Purchase
+  saleIndex: 0
+  purchaseButton: {fileID: 8733906592560150103}
 --- !u!1 &4443717654016677464
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +764,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d119714a4a53841b6fe000f4fd9375, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShopItem
+  buttonIndex: 0
+  itemCost: 0
+  itemPurchased: 0
+  descriptionPanel: {fileID: 4882361202265820106}
+  purchaseButton: {fileID: 8733906592560150103}
+  descriptionActive: 0
 --- !u!1 &6723609503521633063
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +890,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 497166765051100517}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3575058854237960345}
+        m_TargetAssemblyTypeName: ShopItem, Assembly-CSharp
+        m_MethodName: ToggleDescription
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7947417868913677134
 GameObject:
   m_ObjectHideFlags: 0

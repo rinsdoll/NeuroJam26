@@ -13,6 +13,7 @@ public class ButtonController : MonoBehaviour
     public int goalValue = 100;
     float reductionRate = 1f;
     [SerializeField] TextMeshProUGUI valueText_Temp;
+    [SerializeField] Button brainButton;
 
     [Header("Progress Bar")]
     float fillPercentage;
@@ -32,7 +33,7 @@ public class ButtonController : MonoBehaviour
     [SerializeField] GameObject shopCanvas;
     bool shopActive = false;
     [SerializeField] Button shopButton;
-    [SerializeField] Button[] shopItems;
+    public Button[] shopItems;
 
 
 
@@ -103,12 +104,14 @@ public class ButtonController : MonoBehaviour
             settingsCanvas.SetActive(false);
             settingsActive = false;
             shopButton.enabled = true;
+            brainButton.enabled = true;
         }
         else
         {
             settingsCanvas.SetActive(true);
             settingsActive = true;
             shopButton.enabled = false;
+            brainButton.enabled = false;
         }
     }
 
@@ -119,13 +122,27 @@ public class ButtonController : MonoBehaviour
             shopCanvas.SetActive(false);
             shopActive = false;
             settingsButton.enabled = true;
-            //Todo: for buttons[i], if descriptionActive -> ToggleDescription
+            
+            for (int i = 0; i < shopItems.Length; i++)
+            {
+                if (shopItems[i].GetComponent<ShopItem>().descriptionActive)
+                {
+                    shopItems[i].GetComponent<ShopItem>().ToggleDescription();
+                }
+            }
         }
         else
         {
             shopCanvas.SetActive(true);
             shopActive = true;
             settingsButton.enabled = false;
+            brainButton.enabled = false;
         }
+    }
+
+    public void SpendCoins(int itemCost)
+    {
+        coins =- itemCost;
+        coinText.text = coins.ToString();
     }
 }
