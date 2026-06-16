@@ -14,7 +14,7 @@ public class ShopItem : MonoBehaviour
     [Header("Description Bubble")]
     [SerializeField] GameObject descriptionPanel;
     [SerializeField] Button purchaseButton;
-    public bool descriptionActive;
+    public bool descriptionActive = false;
 
     public void ToggleDescription()
     {

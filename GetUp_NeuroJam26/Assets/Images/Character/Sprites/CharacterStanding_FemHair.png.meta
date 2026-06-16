@@ -127,12 +127,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_0
       rect:
         serializedVersion: 2
-        x: 695
-        y: 2860
-        width: 81
-        height: 86
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_1
       rect:
         serializedVersion: 2
-        x: 2633
-        y: 2760
-        width: 81
-        height: 86
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_2
       rect:
         serializedVersion: 2
-        x: 702
-        y: 1831
-        width: 80
-        height: 93
+        x: 0
+        y: 1080
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_3
       rect:
         serializedVersion: 2
-        x: 788
-        y: 1885
-        width: 8
-        height: 22
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_4
       rect:
         serializedVersion: 2
-        x: 2622
-        y: 1834
-        width: 80
-        height: 93
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: CharacterStanding_FemHair_5
       rect:
         serializedVersion: 2
-        x: 2708
-        y: 1888
-        width: 8
-        height: 22
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,77 +255,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CharacterStanding_FemHair_6
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 729
-        width: 80
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd8318213153280b0800000000000000
-      internalID: -5727957420030740259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterStanding_FemHair_7
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 779
-        width: 8
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c3047d2150717f990800000000000000
-      internalID: -7352382556100673476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CharacterStanding_FemHair_8
-      rect:
-        serializedVersion: 2
-        x: 2633
-        y: 600
-        width: 77
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80efed8c9abb1ab30800000000000000
-      internalID: 4296921857382088200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f8fb9267d4131764995abec24ab68ba1
     internalID: 0
     vertices: []
     indices: 
@@ -333,7 +267,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":1920.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       CharacterStanding_FemHair_0: 6398402552998797981
       CharacterStanding_FemHair_1: -669032305213743651
@@ -341,9 +277,6 @@ TextureImporter:
       CharacterStanding_FemHair_3: -3650141467971709529
       CharacterStanding_FemHair_4: -8971197435912062869
       CharacterStanding_FemHair_5: 5788728643012073044
-      CharacterStanding_FemHair_6: -5727957420030740259
-      CharacterStanding_FemHair_7: -7352382556100673476
-      CharacterStanding_FemHair_8: 4296921857382088200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

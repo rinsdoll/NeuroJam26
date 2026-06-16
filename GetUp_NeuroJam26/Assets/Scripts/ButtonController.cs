@@ -96,7 +96,7 @@ public class ButtonController : MonoBehaviour
     }
 
 
-    //TODO:DisableBrainButtonInToggle
+    
     public void ToggleSettings()
     {
         if (settingsActive)
@@ -123,12 +123,18 @@ public class ButtonController : MonoBehaviour
             shopActive = false;
             settingsButton.enabled = true;
             
-            for (int i = 0; i < shopItems.Length; i++)
+            for (int i = 0; i < 12; i++)
             {
-                if (shopItems[i].GetComponent<ShopItem>().descriptionActive)
+                if (shopItems[i] != null)
                 {
-                    shopItems[i].GetComponent<ShopItem>().ToggleDescription();
+                    Debug.Log(shopItems[i].GetComponentInParent<ShopItem>().descriptionActive);
+                    /*
+                    if (shopItems[i].GetComponent<ShopItem>().descriptionActive)
+                    {
+                        shopItems[i].GetComponent<ShopItem>().ToggleDescription();
+                    }*/
                 }
+
             }
         }
         else
