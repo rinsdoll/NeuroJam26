@@ -216,6 +216,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -312,6 +320,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopButton02
       objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -349,6 +365,14 @@ PrefabInstance:
     - target: {fileID: 3575058854237960345, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: buttonIndex
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
@@ -449,6 +473,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2099,6 +2131,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2194,6 +2234,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2381,6 +2429,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2480,6 +2536,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton00
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3115,6 +3179,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3215,6 +3287,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopButton09
       objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3252,6 +3332,14 @@ PrefabInstance:
     - target: {fileID: 3575058854237960345, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: buttonIndex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
@@ -3352,6 +3440,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4197,6 +4293,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4296,6 +4400,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4592,6 +4704,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4691,6 +4811,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4837,6 +4965,14 @@ PrefabInstance:
       propertyPath: buttonIndex
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4937,6 +5073,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopButton10
       objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4974,6 +5118,14 @@ PrefabInstance:
     - target: {fileID: 3575058854237960345, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: buttonIndex
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
@@ -5075,6 +5227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopButton07
       objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5159,6 +5319,14 @@ PrefabInstance:
     - target: {fileID: 3575058854237960345, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: buttonIndex
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 4330113487760568690, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     - target: {fileID: 5368704807161020884, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Pivot.x
@@ -5259,6 +5427,14 @@ PrefabInstance:
     - target: {fileID: 6723609503521633063, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
       propertyPath: m_Name
       value: ShopButton06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2032331584}
+    - target: {fileID: 8733906592560150103, guid: 499f36524dec1e74b98b62f17fc337d0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
