@@ -33,7 +33,10 @@ public class ButtonController : MonoBehaviour
     [SerializeField] GameObject shopCanvas;
     bool shopActive = false;
     [SerializeField] Button shopButton;
-    public Button[] shopItems;
+    public GameObject[] shopItems;
+
+    //[Header("SFX")]
+    //[SerializeField] GameObject sxfManager;
 
 
 
@@ -122,17 +125,17 @@ public class ButtonController : MonoBehaviour
             shopCanvas.SetActive(false);
             shopActive = false;
             settingsButton.enabled = true;
-            
+            brainButton.enabled = true;
+
             for (int i = 0; i < 12; i++)
             {
                 if (shopItems[i] != null)
                 {
-                    Debug.Log(shopItems[i].GetComponentInParent<ShopItem>().descriptionActive);
-                    /*
+                    //Debug.Log(shopItems[i].GetComponent<ShopItem>().descriptionActive);
                     if (shopItems[i].GetComponent<ShopItem>().descriptionActive)
                     {
                         shopItems[i].GetComponent<ShopItem>().ToggleDescription();
-                    }*/
+                    }
                 }
 
             }
@@ -148,7 +151,24 @@ public class ButtonController : MonoBehaviour
 
     public void SpendCoins(int itemCost)
     {
-        coins =- itemCost;
+        coins = coins - itemCost;
         coinText.text = coins.ToString();
+    }
+
+    public void ToggleAllButtonsDescription()
+    {
+        for (int i = 0; i < 12; i++)
+        {
+            if (shopItems[i] != null)
+            {
+                //Debug.Log(shopItems[i].GetComponent<ShopItem>().descriptionActive);
+                if (shopItems[i].GetComponent<ShopItem>().descriptionActive)
+                {
+                    shopItems[i].GetComponent<ShopItem>().ToggleDescription();
+                    shopItems[i].GetComponent<ShopItem>().purchaseButton.GetComponent<Purchase>().saleIndex = -1;
+                }
+            }
+
+        }
     }
 }

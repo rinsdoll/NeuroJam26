@@ -12,8 +12,12 @@ public class Purchase : MonoBehaviour
         switch (saleIndex)
         {
             case 0: //Unlock Progress Bar
-                //HandlePurchase
-                //Set progress bar visibility to active
+                HandlePurchase(0);
+                ShopManager.instance.UpgradeIndex0();
+                break;
+            case 9: //Sit Player Up, Progress won't go below 50%
+                HandlePurchase(9);
+                ShopManager.instance.UpgradeIndex9();
                 break;
             default:
                 break;
@@ -24,7 +28,7 @@ public class Purchase : MonoBehaviour
     {
         Debug.Log("Item " +  index + " Purchased");
         purchaseButton.enabled = false;
-        ButtonController.instance.shopItems[index].enabled = false;
+        ButtonController.instance.shopItems[index].GetComponent<ShopItem>().itemButton.enabled = false;
         ButtonController.instance.shopItems[index].GetComponent<ShopItem>().ToggleDescription();
         ButtonController.instance.SpendCoins(ButtonController.instance.shopItems[index].GetComponent<ShopItem>().itemCost);
     }

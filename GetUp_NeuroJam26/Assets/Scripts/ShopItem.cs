@@ -9,12 +9,19 @@ public class ShopItem : MonoBehaviour
     [Header ("Button Info")]
     public int buttonIndex;
     public int itemCost;
+    [SerializeField] TextMeshProUGUI costText;
     public bool itemPurchased = false;
+    public Button itemButton;
 
     [Header("Description Bubble")]
     [SerializeField] GameObject descriptionPanel;
-    [SerializeField] Button purchaseButton;
+    public Button purchaseButton;
     public bool descriptionActive = false;
+
+    private void Start()
+    {
+        costText.text = itemCost.ToString();
+    }
 
     public void ToggleDescription()
     {
@@ -23,25 +30,33 @@ public class ShopItem : MonoBehaviour
             //for ShopItems[i] -> Toggle any active descriptions
             descriptionPanel.SetActive (false);
             descriptionActive = false;
-            SetActiveIndex(-1);
         }
         else
         {
+            ButtonController.instance.ToggleAllButtonsDescription();
             descriptionPanel.SetActive (true);
             descriptionActive = true;
-            SetActiveIndex(buttonIndex);
             PurchaseEnabled();
         }
     }
 
-    void SetActiveIndex(int index)
+    public void SetActiveIndex()
     {
-        purchaseButton.GetComponent<Purchase>().saleIndex = index;
+        if (!descriptionActive)
+        {
+            Debug.Log(buttonIndex.ToString());
+            purchaseButton.GetComponent<Purchase>().saleIndex = buttonIndex;
+        }
+        else
+        {
+            purchaseButton.GetComponent<Purchase>().saleIndex = -1;
+            Debug.Log(purchaseButton.GetComponent<Purchase>().saleIndex.ToString());
+        }
     }
 
     void PurchaseEnabled()
     {
-        if (itemCost <= ButtonController.instance.coins &&  itemPurchased)
+        if (itemCost <= ButtonController.instance.coins &&  !itemPurchased)
         {
             purchaseButton.enabled = true;
         }
