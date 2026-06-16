@@ -5,7 +5,6 @@ public class ShopManager : MonoBehaviour
     public static ShopManager instance;
 
     [SerializeField] GameObject progressBar;
-    [SerializeField] GameObject character;
 
     private void Awake()
     {
@@ -20,8 +19,13 @@ public class ShopManager : MonoBehaviour
         progressBar.SetActive(true);
     }
 
+    public void UpgradeIndex1()
+    {
+        CharacterManager.instance.StandUp();
+    }
+
     public void UpgradeIndex9()
     {
-        character.GetComponent<Animator>().SetBool("SittingUp", true);
+        CharacterManager.instance.SitUp();
     }
 }

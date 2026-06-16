@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class MusicManager : MonoBehaviour
@@ -7,6 +8,8 @@ public class MusicManager : MonoBehaviour
     [SerializeField] AudioClip[] bgmClips;
     AudioSource bgmAudioSource;
     int clipIndex = 0;
+    [SerializeField] TextMeshProUGUI songText;
+    [SerializeField] string[] songTitles;
 
     private void Awake()
     {
@@ -16,6 +19,7 @@ public class MusicManager : MonoBehaviour
         }
         bgmAudioSource = GetComponent<AudioSource>();
         bgmAudioSource.clip = bgmClips[clipIndex];
+        songText.text = songTitles[clipIndex];
     }
 
     private void Start()
@@ -28,6 +32,7 @@ public class MusicManager : MonoBehaviour
         if (clipIndex <  bgmClips.Length - 1)
         {
             clipIndex++;
+            
         }
         else
         {
@@ -36,6 +41,7 @@ public class MusicManager : MonoBehaviour
 
         bgmAudioSource.Stop();
         bgmAudioSource.clip = bgmClips[clipIndex];
+        songText.text = songTitles[clipIndex];
         bgmAudioSource.Play();
     }
 
@@ -52,6 +58,7 @@ public class MusicManager : MonoBehaviour
 
         bgmAudioSource.Stop();
         bgmAudioSource.clip = bgmClips[clipIndex];
+        songText.text = songTitles[clipIndex];
         bgmAudioSource.Play();
     }
 

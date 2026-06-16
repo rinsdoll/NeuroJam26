@@ -15,6 +15,10 @@ public class Purchase : MonoBehaviour
                 HandlePurchase(0);
                 ShopManager.instance.UpgradeIndex0();
                 break;
+            case 1: //Uplock Spontanious Thought
+                HandlePurchase(1);
+                ShopManager.instance.UpgradeIndex1();
+                break;
             case 9: //Sit Player Up, Progress won't go below 50%
                 HandlePurchase(9);
                 ShopManager.instance.UpgradeIndex9();
