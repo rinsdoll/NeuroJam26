@@ -50,5 +50,8 @@ TagManager:
   - name: Character
     uniqueID: 136491287
     locked: 0
+  - name: Tutorial
+    uniqueID: 2746512107
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: d3edbe799810f7143a7cd6862af2a2d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4828253612740883323
+    second: HowToPlay3_0
+  - first:
+      213: 5793336432533620980
+    second: HowToPlay3_1
+  - first:
+      213: 4964518182404533467
+    second: HowToPlay3_2
+  - first:
+      213: 4178761466509159822
+    second: HowToPlay3_3
+  - first:
+      213: 869310305066144760
+    second: HowToPlay3_4
+  - first:
+      213: 5765518829976839922
+    second: HowToPlay3_5
+  - first:
+      213: 8950128229923078516
+    second: HowToPlay3_6
+  - first:
+      213: 696214520731678185
+    second: HowToPlay3_7
+  - first:
+      213: -5616751854100938507
+    second: HowToPlay3_8
+  - first:
+      213: -357382741598470794
+    second: HowToPlay3_9
+  - first:
+      213: 1317038226167930906
+    second: HowToPlay3_10
+  - first:
+      213: 1174241867098627943
+    second: HowToPlay3_11
+  - first:
+      213: 8608238496953312911
+    second: HowToPlay3_12
+  - first:
+      213: -8208249306779306117
+    second: HowToPlay3_13
+  - first:
+      213: -5833238384715320673
+    second: HowToPlay3_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 115
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HowToPlay3_0
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 931
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73bae06417610340800000000000000
+      internalID: 4828253612740883323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_1
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 935
+        width: 40
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8ce7d7ac0166050800000000000000
+      internalID: 5793336432533620980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_2
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 987
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdca037dbf285e440800000000000000
+      internalID: 4964518182404533467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_3
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 938
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d6e5ce961fdf930800000000000000
+      internalID: 4178761466509159822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_4
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 943
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3dd0ddd19601c00800000000000000
+      internalID: 869310305066144760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_5
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1000
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6689e24dc330050800000000000000
+      internalID: 5765518829976839922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_6
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 937
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c2ce843e353c70800000000000000
+      internalID: 8950128229923078516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_7
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 929
+        width: 82
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e53eabfa6379a900800000000000000
+      internalID: 696214520731678185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 939
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f00cc092f94d02b0800000000000000
+      internalID: -5616751854100938507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_9
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 940
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dfa2e3a425a0bf0800000000000000
+      internalID: -357382741598470794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_10
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 943
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10a95ae94f074210800000000000000
+      internalID: 1317038226167930906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_11
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 941
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f1ec8b1cebb4010800000000000000
+      internalID: 1174241867098627943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_12
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 889
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86aeb8fd4b967770800000000000000
+      internalID: 8608238496953312911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_13
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 935
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b291aeb0761e80800000000000000
+      internalID: -8208249306779306117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HowToPlay3_14
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 959
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92bedc489c2c0fa0800000000000000
+      internalID: -5833238384715320673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HowToPlay3_0: 4828253612740883323
+      HowToPlay3_1: 5793336432533620980
+      HowToPlay3_10: 1317038226167930906
+      HowToPlay3_11: 1174241867098627943
+      HowToPlay3_12: 8608238496953312911
+      HowToPlay3_13: -8208249306779306117
+      HowToPlay3_14: -5833238384715320673
+      HowToPlay3_2: 4964518182404533467
+      HowToPlay3_3: 4178761466509159822
+      HowToPlay3_4: 869310305066144760
+      HowToPlay3_5: 5765518829976839922
+      HowToPlay3_6: 8950128229923078516
+      HowToPlay3_7: 696214520731678185
+      HowToPlay3_8: -5616751854100938507
+      HowToPlay3_9: -357382741598470794
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

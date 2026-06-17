@@ -1,12 +1,33 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class CharacterManager : MonoBehaviour
 {
     public static CharacterManager instance;
 
+    [Header("Character")]
     [SerializeField] GameObject[] characterParts;
+
+    [Header("Customizations")]
+    [SerializeField] Slider skinR;
+    [SerializeField] Slider skinG;
+    [SerializeField] Slider skinB;
+
+    [SerializeField] Slider shirtR;
+    [SerializeField] Slider shirtG;
+    [SerializeField] Slider shirtB;
+
+    [SerializeField] Slider hairR;
+    [SerializeField] Slider hairG;
+    [SerializeField] Slider hairB;
+
+    [Header ("Hair")]
     [SerializeField] TextMeshProUGUI hairToggleButtonText;
+
+
     int randomInt;
 
     private void Awake()
@@ -41,6 +62,7 @@ public class CharacterManager : MonoBehaviour
             }
             characterParts[i].GetComponent<Animator>().SetBool("SittingUp", true);
         }
+        SyncAnimations();
 
     }
 
@@ -54,6 +76,7 @@ public class CharacterManager : MonoBehaviour
             }
             characterParts[i].GetComponent<Animator>().SetBool("StandingUp", true);
         }
+        SyncAnimations();
 
     }
 
@@ -64,12 +87,50 @@ public class CharacterManager : MonoBehaviour
             characterParts[2].SetActive(false);
             characterParts[3].SetActive(true);
             hairToggleButtonText.text = "Masc";
+            SyncAnimations();
         }
         else if (characterParts[3].activeSelf)
         {
             characterParts[3].SetActive(false);
             characterParts[2].SetActive(true);
             hairToggleButtonText.text = "Fem";
+            SyncAnimations();
         }
     }
+
+    public void SyncAnimations()
+    {
+        for(int i = 0; i < characterParts.Length; i++)
+        {
+            characterParts[i].GetComponent<Animator>().Play(0, -1, 0);
+        }
+    }
+
+    private void Start()
+    {
+        characterParts[0].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
+        characterParts[1].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
+
+        characterParts[2].GetComponent<SpriteRenderer>().material.color = new Color(hairR.value, hairG.value, hairB.value);
+        characterParts[3].GetComponent<SpriteRenderer>().material.color = new Color(hairR.value, hairG.value, hairB.value);
+
+        characterParts[4].GetComponent<SpriteRenderer>().material.color = new Color(shirtR.value, shirtG.value, shirtB.value);
+    }
+
+
+    private void Update()
+    {
+        if (ButtonController.instance.settingsActive)
+        {
+            characterParts[0].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
+            characterParts[1].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
+
+            characterParts[2].GetComponent<SpriteRenderer>().material.color = new Color(hairR.value, hairG.value, hairB.value);
+            characterParts[3].GetComponent<SpriteRenderer>().material.color = new Color(hairR.value, hairG.value, hairB.value);
+
+            characterParts[4].GetComponent<SpriteRenderer>().material.color = new Color(shirtR.value, shirtG.value, shirtB.value);
+        }
+
+    }
+    
 }

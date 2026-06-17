@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
@@ -27,7 +28,7 @@ public class ButtonController : MonoBehaviour
 
     [Header("Settings")]
     [SerializeField] GameObject settingsCanvas;
-    bool settingsActive = false;
+    public bool settingsActive = false;
     [SerializeField] Button settingsButton;
 
     [Header("Shop")]
@@ -41,6 +42,13 @@ public class ButtonController : MonoBehaviour
     public bool importantActive = false;
     public bool hungryActive = false;
     public bool bathroomActive = false;
+
+    [Header("Tutorial")]
+    [SerializeField] GameObject[] tutorials;
+    bool shopTutorialCompleted;
+    bool settingsTutorialCompleted;
+
+
 
     private void Awake()
     {
@@ -63,10 +71,19 @@ public class ButtonController : MonoBehaviour
         {
             value = 0;
         }
+        if (value >= 5 && !shopTutorialCompleted)
+        {
+            tutorials[1].SetActive(true);
+        }
+        if (value >= 20 && !settingsTutorialCompleted)
+        {
+            tutorials[2].SetActive(true);
+        }
     }
 
     public void IncreaseValue()
     {
+        tutorials[0].SetActive(false);
         value += increaseAmount;
         valueText_Temp.text = value.ToString();
         if (catActive)
@@ -134,10 +151,10 @@ public class ButtonController : MonoBehaviour
                 increaseAmount += 1;
                 break;
             case 1: //Hungry
-                increaseAmount += 2;
+                increaseAmount += 1;
                 break;
             case 2: //Bathroom
-                increaseAmount += 3;
+                increaseAmount += 2;
                 break;
             default :
                 break;
@@ -166,6 +183,11 @@ public class ButtonController : MonoBehaviour
     
     public void ToggleSettings()
     {
+        if (!settingsTutorialCompleted)
+        {
+            settingsTutorialCompleted = true;
+            tutorials[2].SetActive(false);
+        }
         if (settingsActive)
         {
             settingsCanvas.SetActive(false);
@@ -184,6 +206,11 @@ public class ButtonController : MonoBehaviour
 
     public void ToggleShop()
     {
+        if (!shopTutorialCompleted)
+        {
+            shopTutorialCompleted = true;
+            tutorials[1].SetActive(false);
+        }
         if (shopActive)
         {
             shopCanvas.SetActive(false);
@@ -234,5 +261,10 @@ public class ButtonController : MonoBehaviour
             }
 
         }
+    }
+
+    public void ResetButton()
+    {
+        SceneManager.LoadScene(0);
     }
 }
