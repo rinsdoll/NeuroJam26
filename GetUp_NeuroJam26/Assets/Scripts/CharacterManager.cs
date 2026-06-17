@@ -16,7 +16,7 @@ public class CharacterManager : MonoBehaviour
             instance = this;
         }
 
-        randomInt = Random.Range(0, 1);
+        randomInt = Random.Range(0, 2);
         if(randomInt == 0)
         {
             characterParts[2].SetActive(false);

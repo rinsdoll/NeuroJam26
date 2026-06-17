@@ -19,9 +19,45 @@ public class Purchase : MonoBehaviour
                 HandlePurchase(1);
                 ShopManager.instance.UpgradeIndex1();
                 break;
+            case 2: //Unlock cat on lap
+                HandlePurchase(2);
+                ShopManager.instance.UpgradeIndex2();
+                break;
+            case 3: //Unlock TV
+                HandlePurchase(3);
+                ShopManager.instance.UpgradeIndex3();
+                break;
+            case 4: //Unlock Books
+                HandlePurchase(4);
+                ShopManager.instance.UpgradeIndex4();
+                break;
+            case 5: //Unlock Art
+                HandlePurchase(5);
+                ShopManager.instance.UpgradeIndex5();
+                break;
+            case 6: //Important
+                HandlePurchase(6);
+                ShopManager.instance.UpgradeIndex6();
+                break;
+            case 7: //Hungry
+                HandlePurchase(7);
+                ShopManager.instance.UpgradeIndex7();
+                break;
+            case 8: //Bathroon
+                HandlePurchase(8);
+                ShopManager.instance.UpgradeIndex8();
+                break;
             case 9: //Sit Player Up, Progress won't go below 50%
                 HandlePurchase(9);
                 ShopManager.instance.UpgradeIndex9();
+                break;
+            case 10: //Spikes
+                HandlePurchase(10);
+                ShopManager.instance.UpgradeIndex10();
+                break;
+            case 11: //Sunny Day
+                HandlePurchase(11);
+                ShopManager.instance.UpgradeIndex11();
                 break;
             default:
                 break;

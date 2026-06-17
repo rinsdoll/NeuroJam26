@@ -12,6 +12,7 @@ public class ButtonController : MonoBehaviour
     public int increaseAmount = 1;
     public int goalValue = 100;
     float reductionRate = 1f;
+    float progressTreshold = 0;
     [SerializeField] TextMeshProUGUI valueText_Temp;
     [SerializeField] Button brainButton;
 
@@ -35,10 +36,11 @@ public class ButtonController : MonoBehaviour
     [SerializeField] Button shopButton;
     public GameObject[] shopItems;
 
-    //[Header("SFX")]
-    //[SerializeField] GameObject sxfManager;
-
-
+    [Header("Shop Effects")]
+    public bool catActive = false;
+    public bool importantActive = false;
+    public bool hungryActive = false;
+    public bool bathroomActive = false;
 
     private void Awake()
     {
@@ -67,12 +69,16 @@ public class ButtonController : MonoBehaviour
     {
         value += increaseAmount;
         valueText_Temp.text = value.ToString();
+        if (catActive)
+        {
+            coinIncreaseAmount = Random.Range(2, 6);
+        }
         coins += coinIncreaseAmount;
         coinText.text = coins.ToString();
 
         UpdateFillBar();
 
-        if(value > 5)
+        if(value > progressTreshold + 5)
         {
             StartCoroutine(ReduceValueOverTime(reductionRate));
         }
@@ -80,10 +86,10 @@ public class ButtonController : MonoBehaviour
 
     IEnumerator ReduceValueOverTime(float seconds)
     {
-        while (value >= 2)
+        while (value >= progressTreshold + 2)
         {
             yield return new WaitForSeconds(seconds);
-            if (value > 0)
+            if (value > Mathf.Floor(progressTreshold))
             {
                 value--;
                 valueText_Temp.text = value.ToString();
@@ -96,6 +102,64 @@ public class ButtonController : MonoBehaviour
     {
         fillPercentage = (float)value / goalValue;
         fillBarImage.GetComponent<Image>().fillAmount = fillPercentage;
+    }
+
+    public void UpdateReductionRate(int reductionCase)
+    {
+        switch (reductionCase)
+        {
+            case 0: //catActive
+                reductionRate *= 0.5f;
+                break;
+            case 1: //tVActive
+                reductionRate *= 2f;
+                break;
+            case 2: //booksActive
+                reductionRate *= 2.5f;
+                break;
+            case 3: //artActive
+                reductionRate *= 2.75f;
+                break;
+            default:
+                break;
+        }
+
+    }
+
+    public void UpdateValueRate(int increaseValue)
+    {
+        switch (increaseValue)
+        {
+            case 0: //Important
+                increaseAmount += 1;
+                break;
+            case 1: //Hungry
+                increaseAmount += 2;
+                break;
+            case 2: //Bathroom
+                increaseAmount += 3;
+                break;
+            default :
+                break;
+        }
+    }
+
+    public void UpdateProgressThreshold (int threshold)
+    {
+        switch (threshold)
+        {
+            case 0: //Sit up
+                progressTreshold += (goalValue * .1f);
+                break;
+            case 1: //Spikes
+                progressTreshold += (goalValue * .15f);
+                break;
+            case 2: //Sunny day
+                progressTreshold += (goalValue * .2f);
+                break;
+            default:
+                break;
+        }
     }
 
 
