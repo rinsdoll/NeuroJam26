@@ -6,6 +6,16 @@ public class Purchase : MonoBehaviour
     [Header("Purchase")]
     public int saleIndex;
     [SerializeField] Button purchaseButton;
+    [SerializeField] GameObject purchaseActive;
+    [SerializeField] GameObject purchaseDisabled;
+
+    /*private void Start()
+    {
+        purchaseDisabled.SetActive(true);
+        purchaseActive.SetActive(false);
+        purchaseButton.enabled = false;
+    }*/
+
 
     public void PurchaseUpgrade()
     {
@@ -71,6 +81,22 @@ public class Purchase : MonoBehaviour
         ButtonController.instance.shopItems[index].GetComponent<ShopItem>().itemButton.enabled = false;
         ButtonController.instance.shopItems[index].GetComponent<ShopItem>().ToggleDescription();
         ButtonController.instance.SpendCoins(ButtonController.instance.shopItems[index].GetComponent<ShopItem>().itemCost);
+    }
+
+    public void TogglePurchaseActive(bool canPurchase)
+    {
+        if (canPurchase)
+        {
+            purchaseDisabled.SetActive(false);
+            purchaseActive.SetActive(true);
+            purchaseButton.enabled = true;
+        }
+        else
+        {
+            purchaseDisabled.SetActive(true);
+            purchaseActive.SetActive(false);
+            purchaseButton.enabled = false;
+        }
     }
 
 }

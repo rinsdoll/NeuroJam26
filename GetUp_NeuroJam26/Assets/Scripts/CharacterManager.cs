@@ -10,6 +10,8 @@ public class CharacterManager : MonoBehaviour
 
     [Header("Character")]
     [SerializeField] GameObject[] characterParts;
+    bool sittingUp = false;
+    bool standingUp = false;
 
     [Header("Customizations")]
     [SerializeField] Slider skinR;
@@ -26,9 +28,9 @@ public class CharacterManager : MonoBehaviour
 
     [Header ("Hair")]
     [SerializeField] TextMeshProUGUI hairToggleButtonText;
-
-
     int randomInt;
+
+
 
     private void Awake()
     {
@@ -62,6 +64,7 @@ public class CharacterManager : MonoBehaviour
             }
             characterParts[i].GetComponent<Animator>().SetBool("SittingUp", true);
         }
+        sittingUp = true;
         SyncAnimations();
 
     }
@@ -76,6 +79,8 @@ public class CharacterManager : MonoBehaviour
             }
             characterParts[i].GetComponent<Animator>().SetBool("StandingUp", true);
         }
+        sittingUp = false;
+        standingUp = true;
         SyncAnimations();
 
     }
@@ -86,6 +91,14 @@ public class CharacterManager : MonoBehaviour
         {
             characterParts[2].SetActive(false);
             characterParts[3].SetActive(true);
+            if (sittingUp)
+            {
+                characterParts[3].GetComponent<Animator>().SetBool("SittingUp", true);
+            }
+            else if (standingUp)
+            {
+                characterParts[3].GetComponent<Animator>().SetBool("StandingUp", true);
+            }
             hairToggleButtonText.text = "Masc";
             SyncAnimations();
         }
@@ -94,6 +107,16 @@ public class CharacterManager : MonoBehaviour
             characterParts[3].SetActive(false);
             characterParts[2].SetActive(true);
             hairToggleButtonText.text = "Fem";
+            if (sittingUp)
+            {
+                characterParts[2].GetComponent<Animator>().SetBool("SittingUp", true);
+            }
+            else if (standingUp)
+            {
+                characterParts[2].GetComponent<Animator>().SetBool("StandingUp", true);
+            }
+            hairToggleButtonText.text = "Fem";
+
             SyncAnimations();
         }
     }
@@ -108,6 +131,14 @@ public class CharacterManager : MonoBehaviour
 
     private void Start()
     {
+        hairR.value = Random.Range(0f, 1f);
+        hairG.value = Random.Range(0f, 1f);
+        hairB.value = Random.Range(0f, 1f);
+
+        shirtR.value = Random.Range(0f, 1f);
+        shirtG.value = Random.Range(0f, 1f);
+        shirtB.value = Random.Range(0f, 1f);
+
         characterParts[0].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
         characterParts[1].GetComponent<SpriteRenderer>().material.color = new Color(skinR.value, skinG.value, skinB.value);
 

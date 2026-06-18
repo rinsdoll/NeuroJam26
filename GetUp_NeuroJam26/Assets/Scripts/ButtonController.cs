@@ -16,6 +16,8 @@ public class ButtonController : MonoBehaviour
     float progressTreshold = 0;
     [SerializeField] TextMeshProUGUI valueText_Temp;
     [SerializeField] Button brainButton;
+    bool gameWon = false;
+    
 
     [Header("Progress Bar")]
     float fillPercentage;
@@ -42,6 +44,9 @@ public class ButtonController : MonoBehaviour
     public bool importantActive = false;
     public bool hungryActive = false;
     public bool bathroomActive = false;
+    public bool spontaniousThoughtActive = false;
+    int spontaniousValue;
+    int spontaniousMatch;
 
     [Header("Tutorial")]
     [SerializeField] GameObject[] tutorials;
@@ -62,6 +67,7 @@ public class ButtonController : MonoBehaviour
     void Start()
     {
         coinText.text = coins.ToString();
+        spontaniousValue = Random.Range(0, 100);
     }
 
     
@@ -79,12 +85,28 @@ public class ButtonController : MonoBehaviour
         {
             tutorials[2].SetActive(true);
         }
+
+        if (value >= goalValue)
+        {
+            WinGame();
+        }
+
     }
 
     public void IncreaseValue()
     {
         tutorials[0].SetActive(false);
         value += increaseAmount;
+
+        if (spontaniousThoughtActive)
+        {
+            RollSpontanious();
+            if (spontaniousValue == spontaniousMatch)
+            {
+                WinGame() ;
+            }
+        }
+
         valueText_Temp.text = value.ToString();
         if (catActive)
         {
@@ -193,7 +215,10 @@ public class ButtonController : MonoBehaviour
             settingsCanvas.SetActive(false);
             settingsActive = false;
             shopButton.enabled = true;
-            brainButton.enabled = true;
+            if (!gameWon)
+            {
+                brainButton.enabled = true;
+            }
         }
         else
         {
@@ -216,8 +241,11 @@ public class ButtonController : MonoBehaviour
             shopCanvas.SetActive(false);
             shopActive = false;
             settingsButton.enabled = true;
-            brainButton.enabled = true;
-
+            if (!gameWon)
+            {
+                brainButton.enabled = true;
+            }
+            
             for (int i = 0; i < 12; i++)
             {
                 if (shopItems[i] != null)
@@ -263,8 +291,21 @@ public class ButtonController : MonoBehaviour
         }
     }
 
+    void RollSpontanious()
+    {
+        spontaniousMatch = Random.Range(0, 100);
+    }
+
     public void ResetButton()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void WinGame()
+    {
+        gameWon = true;
+        CharacterManager.instance.StandUp();
+        brainButton.enabled = false;
+
     }
 }

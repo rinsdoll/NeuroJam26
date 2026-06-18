@@ -56,13 +56,13 @@ public class ShopItem : MonoBehaviour
 
     void PurchaseEnabled()
     {
-        if (itemCost <= ButtonController.instance.coins &&  !itemPurchased)
+        if (itemCost <= ButtonController.instance.coins && !itemPurchased)
         {
-            purchaseButton.enabled = true;
+            purchaseButton.GetComponent<Purchase>().TogglePurchaseActive(true);
         }
         else
         {
-            purchaseButton.enabled = false;
+            purchaseButton.GetComponent<Purchase>().TogglePurchaseActive(false);
         }
     }
 }

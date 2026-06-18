@@ -22,7 +22,7 @@ public class ShopManager : MonoBehaviour
 
     public void UpgradeIndex1() //Spontanious
     {
-        //CharacterManager.instance.StandUp();
+        ButtonController.instance.spontaniousThoughtActive = true;
     }
 
     public void UpgradeIndex2() //Cat
