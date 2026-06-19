@@ -69,7 +69,7 @@ public class ButtonController : MonoBehaviour
     void Start()
     {
         coinText.text = coins.ToString();
-        spontaniousValue = Random.Range(0, 2);
+        spontaniousValue = Random.Range(0, 500);
     }
 
     
@@ -83,7 +83,7 @@ public class ButtonController : MonoBehaviour
         {
             tutorials[1].SetActive(true);
         }
-        if (value >= 20 && !settingsTutorialCompleted)
+        if (value >= 10 && !settingsTutorialCompleted)
         {
             tutorials[2].SetActive(true);
         }
@@ -295,7 +295,7 @@ public class ButtonController : MonoBehaviour
 
     void RollSpontanious()
     {
-        spontaniousMatch = Random.Range(0, 2);
+        spontaniousMatch = Random.Range(0, 500);
     }
 
     public void ResetButton()
@@ -310,6 +310,7 @@ public class ButtonController : MonoBehaviour
         brainButton.enabled = false;
         winImage.SetActive(true);
         ShopManager.instance.MoveCat();
+        ShopManager.instance.HideProgressBar();
         confettii.GetComponent<ParticleSystem>().Play();
         confettii2.GetComponent<ParticleSystem>().Play();
 

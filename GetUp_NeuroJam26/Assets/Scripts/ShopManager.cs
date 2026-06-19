@@ -109,4 +109,9 @@ public class ShopManager : MonoBehaviour
         shopItems[1].transform.position = new Vector3(0.67f, -0.31f, 0);
     }
 
+    public void HideProgressBar()
+    {
+        shopItems[0].SetActive(false);
+    }
+
 }
