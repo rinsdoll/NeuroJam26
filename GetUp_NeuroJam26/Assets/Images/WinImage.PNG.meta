@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 7baef02eae7d0a34787a3044582568b4
+guid: d37f904e2d3fccc47acc229a718a965b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1811744137518297922
-    second: CharacterStanding_Base2_0
+      213: 1246360345913744774
+    second: WinImage_0
   - first:
-      213: 2929973020584151331
-    second: CharacterStanding_Base2_1
+      213: -8111015395869983378
+    second: WinImage_1
   - first:
-      213: -8545007409221602608
-    second: CharacterStanding_Base2_2
+      213: 1867006169577323647
+    second: WinImage_2
   - first:
-      213: 1186686111833690661
-    second: CharacterStanding_Base2_3
+      213: 3462140519198587827
+    second: WinImage_3
   - first:
-      213: 856583430160963258
-    second: CharacterStanding_Base2_4
+      213: -4414499234619880461
+    second: WinImage_4
   - first:
-      213: 3504345981438412632
-    second: CharacterStanding_Base2_5
+      213: 2947711810778160605
+    second: WinImage_5
   - first:
-      213: 986794529970555874
-    second: CharacterStanding_Base2_6
+      213: 6211259767416996447
+    second: WinImage_6
   - first:
-      213: -1532474531029042899
-    second: CharacterStanding_Base2_7
-  - first:
-      213: 2881655240169147508
-    second: CharacterStanding_Base2_8
-  - first:
-      213: 7672819676414436488
-    second: CharacterStanding_Base2_9
-  - first:
-      213: 5151778286990112446
-    second: CharacterStanding_Base2_10
-  - first:
-      213: 769184592772308026
-    second: CharacterStanding_Base2_11
+      213: 1071546372542677555
+    second: WinImage_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -79,12 +67,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -133,133 +121,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharacterStanding_Base2_0
+      name: WinImage_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 95
+        y: 665
+        width: 393
+        height: 327
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 243bcaca1bb942910800000000000000
-      internalID: 1811744137518297922
+      spriteID: 68d52509126fb4110800000000000000
+      internalID: 1246360345913744774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterStanding_Base2_1
+      name: WinImage_1
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 2160
-        width: 1920
-        height: 1080
+        x: 564
+        y: 801
+        width: 149
+        height: 232
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 329856540fa59a820800000000000000
-      internalID: 2929973020584151331
+      spriteID: e6df171b872ef6f80800000000000000
+      internalID: -8111015395869983378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterStanding_Base2_2
+      name: WinImage_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1080
-        width: 1920
-        height: 1080
+        x: 721
+        y: 825
+        width: 67
+        height: 219
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d2f342e8090a6980800000000000000
-      internalID: -8545007409221602608
+      spriteID: f7c7e1b2830f8e910800000000000000
+      internalID: 1867006169577323647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterStanding_Base2_3
+      name: WinImage_3
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 1080
-        width: 1920
-        height: 1080
+        x: 797
+        y: 809
+        width: 156
+        height: 235
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5229cbb3bb4f77010800000000000000
-      internalID: 1186686111833690661
+      spriteID: 3bb7151857efb0030800000000000000
+      internalID: 3462140519198587827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterStanding_Base2_4
+      name: WinImage_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 1007
+        y: 806
+        width: 121
+        height: 209
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab6da33671233eb00800000000000000
-      internalID: 856583430160963258
+      spriteID: 3fb8f3bc55c8cb2c0800000000000000
+      internalID: -4414499234619880461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CharacterStanding_Base2_5
+      name: WinImage_5
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 1920
-        height: 1080
+        x: 1104
+        y: 758
+        width: 192
+        height: 232
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85744b17a10f1a030800000000000000
-      internalID: 3504345981438412632
+      spriteID: dddd7a5364068e820800000000000000
+      internalID: 2947711810778160605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinImage_6
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 732
+        width: 148
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52c09c89d3d23650800000000000000
+      internalID: 6211259767416996447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinImage_7
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 672
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c3cf9fb5eede00800000000000000
+      internalID: 1071546372542677555
       vertices: []
       indices: 
       edges: []
@@ -268,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0035e9c8f28b6664a8bed6be5bffaf3f
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -276,16 +308,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":1920.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      CharacterStanding_Base2_0: 1811744137518297922
-      CharacterStanding_Base2_1: 2929973020584151331
-      CharacterStanding_Base2_2: -8545007409221602608
-      CharacterStanding_Base2_3: 1186686111833690661
-      CharacterStanding_Base2_4: 856583430160963258
-      CharacterStanding_Base2_5: 3504345981438412632
+      WinImage_0: 1246360345913744774
+      WinImage_1: -8111015395869983378
+      WinImage_2: 1867006169577323647
+      WinImage_3: 3462140519198587827
+      WinImage_4: -4414499234619880461
+      WinImage_5: 2947711810778160605
+      WinImage_6: 6211259767416996447
+      WinImage_7: 1071546372542677555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -89,8 +89,7 @@ public class ShopManager : MonoBehaviour
     {
         ButtonController.instance.UpdateProgressThreshold(0);
         CharacterManager.instance.SitUp();
-        shopItems[1].GetComponent<SpriteRenderer>().sortingOrder = -1;
-        shopItems[1].transform.position = new Vector3(0.67f, -0.31f, 0);
+        MoveCat();
     }
 
     public void UpgradeIndex10() //Spikes
@@ -102,6 +101,12 @@ public class ShopManager : MonoBehaviour
     {
         ButtonController.instance.UpdateProgressThreshold(2);
         shopItems[9].SetActive(true);
+    }
+
+    public void MoveCat()
+    {
+        shopItems[1].GetComponent<SpriteRenderer>().sortingOrder = -1;
+        shopItems[1].transform.position = new Vector3(0.67f, -0.31f, 0);
     }
 
 }

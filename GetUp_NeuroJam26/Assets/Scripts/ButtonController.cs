@@ -17,7 +17,9 @@ public class ButtonController : MonoBehaviour
     [SerializeField] TextMeshProUGUI valueText_Temp;
     [SerializeField] Button brainButton;
     bool gameWon = false;
-    
+    [SerializeField] GameObject winImage;
+    [SerializeField] GameObject confettii;
+    [SerializeField] GameObject confettii2;
 
     [Header("Progress Bar")]
     float fillPercentage;
@@ -67,7 +69,7 @@ public class ButtonController : MonoBehaviour
     void Start()
     {
         coinText.text = coins.ToString();
-        spontaniousValue = Random.Range(0, 100);
+        spontaniousValue = Random.Range(0, 2);
     }
 
     
@@ -293,7 +295,7 @@ public class ButtonController : MonoBehaviour
 
     void RollSpontanious()
     {
-        spontaniousMatch = Random.Range(0, 100);
+        spontaniousMatch = Random.Range(0, 2);
     }
 
     public void ResetButton()
@@ -306,6 +308,10 @@ public class ButtonController : MonoBehaviour
         gameWon = true;
         CharacterManager.instance.StandUp();
         brainButton.enabled = false;
+        winImage.SetActive(true);
+        ShopManager.instance.MoveCat();
+        confettii.GetComponent<ParticleSystem>().Play();
+        confettii2.GetComponent<ParticleSystem>().Play();
 
     }
 }
